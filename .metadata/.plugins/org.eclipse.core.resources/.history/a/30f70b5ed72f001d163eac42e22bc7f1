@@ -1,0 +1,19 @@
+package com;
+
+public class SIBExample2 {
+
+	public static String name;
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Main method");
+	}
+	
+	static
+	{
+		name = "abc";
+		System.out.println("SIB1");
+	}
+}
+
+

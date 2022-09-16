@@ -1,0 +1,22 @@
+package conditions;
+
+import java.util.Scanner;
+
+public class ConditionsExample2 {
+
+	public static void main(String[] args) {
+		
+		// 10 -> 30% hike
+		// 8 and 9 -> 20% hike
+		// 6 and 7 -> 10% hike
+		// 5 -> 5% hike
+		// 1, 2, 3 amd 4 -> No hike
+		
+		System.out.println("Enter any integer value equal/below 10");
+		Scanner sc = new Scanner(System.in);
+		int rating = sc.nextInt();
+		System.out.println(rating);
+		
+		
+	}
+}

@@ -1,0 +1,15 @@
+package com;
+
+public class ConstructorExample1 {
+
+	public ConstructorExample1()
+	{
+		System.out.println("Constructor");
+	}
+	
+	public void ConstructorExample1()
+	{
+		
+	}
+
+}

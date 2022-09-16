@@ -1,0 +1,26 @@
+package com;
+
+public class SIBExample2 {
+
+	public String name;
+	
+	// main method
+	public static void main(String[] args) {
+		
+		System.out.println("Main method");
+	}
+	
+	// SIB
+	static
+	{
+		System.out.println("SIB1");
+	}
+	
+	// IIB
+	{
+		name = "Alex";
+		System.out.println("IIB");
+	}
+}
+
+

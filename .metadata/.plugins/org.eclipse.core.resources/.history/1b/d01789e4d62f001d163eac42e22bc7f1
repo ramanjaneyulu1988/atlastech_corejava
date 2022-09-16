@@ -1,0 +1,31 @@
+package com;
+
+public class SIBExample2 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Main method");
+	}
+	
+	static
+	{
+		System.out.println("SIB1");
+	}
+	
+	static
+	{
+		System.out.println("SIB2");
+	}
+	
+	static
+	{
+		System.out.println("SIB3");
+	}
+	
+	static
+	{
+		System.out.println("SIB4");
+	}
+}
+
+

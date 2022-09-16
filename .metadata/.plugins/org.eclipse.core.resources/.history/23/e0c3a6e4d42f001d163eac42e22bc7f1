@@ -1,0 +1,17 @@
+package com;
+
+public class SIBExample1 {
+
+	public static String department;
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Main method");
+	}
+	
+	static
+	{
+
+	}
+
+}

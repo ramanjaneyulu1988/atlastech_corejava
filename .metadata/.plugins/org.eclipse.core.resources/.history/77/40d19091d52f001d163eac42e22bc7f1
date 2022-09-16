@@ -1,0 +1,33 @@
+package com;
+
+public class SIBExample1 {
+
+	public static String department = "Network";
+	public static String name;
+	public static String address;
+	public static int age;
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Main method");
+	}
+	
+	public static void test()
+	{
+		System.out.println(department);
+	}
+	
+	public static void test1()
+	{
+		System.out.println(department);
+	}
+	
+	static
+	{
+		department = "IT";
+		name = "Alex";
+		address = "Hyd";
+		age = 30;
+	}
+
+}

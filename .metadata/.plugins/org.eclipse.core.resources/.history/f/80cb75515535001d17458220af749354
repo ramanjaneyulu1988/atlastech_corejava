@@ -1,0 +1,9 @@
+package loops;
+
+public class ForLoopExample1 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

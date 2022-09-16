@@ -1,0 +1,11 @@
+package in;
+
+import com.A;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+//		A.test();
+	}
+}

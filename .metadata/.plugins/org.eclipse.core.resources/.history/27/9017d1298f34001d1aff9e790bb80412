@@ -1,0 +1,9 @@
+package conditions;
+
+public class ConditionsExample2 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

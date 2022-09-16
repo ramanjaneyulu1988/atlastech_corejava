@@ -1,0 +1,52 @@
+package com;
+
+public class SIBExample2 {
+
+	public String name;
+	
+	// main method
+	public static void main(String[] args) {
+		
+		System.out.println("Main method");
+		
+		SIBExample2 sibExample2 = new SIBExample2();
+		SIBExample2 sibExample21 = new SIBExample2();
+		SIBExample2 sibExample22 = new SIBExample2();
+	}
+	
+	// SIB
+	static
+	{
+		System.out.println("SIB1");
+	}
+	
+	// IIB
+	{
+		name = "Alex";
+		System.out.println("IIB1");
+	}
+	
+	{
+		name = "Alex";
+		System.out.println("IIB2");
+	}
+	
+	{
+		name = "Alex";
+		System.out.println("IIB3");
+	}
+}
+
+//SIB1
+//Main method
+//IIB1
+//IIB2
+//IIB3
+//IIB1
+//IIB2
+//IIB3
+//IIB1
+//IIB2
+//IIB3
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.Calculator"/>
+    <fullyQualifiedTypeName name="com.VariableExample1"/>
+    <fullyQualifiedTypeName name="com.VariableExample2"/>
+    <fullyQualifiedTypeName name="java.lang.Deprecated"/>
+    <fullyQualifiedTypeName name="com.SIBExample1"/>
+    <fullyQualifiedTypeName name="com.SIBExample2"/>
+    <fullyQualifiedTypeName name="com.IIBExample1"/>
+    <fullyQualifiedTypeName name="com.AllExample1"/>
+    <fullyQualifiedTypeName name="com.A"/>
+    <fullyQualifiedTypeName name="sun.tools.java.Scanner"/>
+    <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,9 @@
+package loops;
+
+public class WhileLoopExample2 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}
