@@ -1,0 +1,11 @@
+package casting;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		
+		int i = 10;
+		
+		long l = i; // 
+	}
+}

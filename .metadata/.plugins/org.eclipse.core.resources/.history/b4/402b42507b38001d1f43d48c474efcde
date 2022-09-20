@@ -1,0 +1,28 @@
+package datatypes;
+
+public class Example1 {
+
+	
+	
+	public static void main(String[] args) {
+		
+		byte b = 7;
+//		public short s;
+//		public static int i = 30;
+//		public static long l;
+//		public static float f;
+//		public static double d;
+//		public static boolean b1;
+//		public static char c;
+		
+		System.out.println(b);
+//		System.out.println(Example1.s);
+//		System.out.println(Example1.i);
+//		System.out.println(Example1.l);
+//		System.out.println(Example1.f);
+//		System.out.println(Example1.d);
+//		System.out.println(Example1.b1);
+//		System.out.println(Example1.c);
+		
+	}
+}

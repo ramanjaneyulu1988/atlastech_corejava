@@ -1,0 +1,24 @@
+package returntypesonmethod;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("main method");
+		Example1.test();
+		System.out.println(Example1.add(30, 40));
+	}
+	
+	public static void test()
+	{
+		System.out.println("test method");
+	}
+	
+	public static int add(int i, int j)
+	{
+		System.out.println("test1 method");
+		int k = i+j;
+		
+		return k;
+	}
+}
