@@ -1,0 +1,22 @@
+package oops.polymorphism;
+
+class Person
+{
+	public void personName(String name)
+	{
+		
+	}
+}
+
+class Employee extends Person
+{
+	public void personName(String name)
+	{
+		
+	}
+}
+
+
+public class MethodOveridingExample1 {
+
+}

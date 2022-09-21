@@ -1,0 +1,25 @@
+package oops.encapsulation;
+
+class Employee
+{
+	// Variables / Attributes
+	private String fname;
+	private String lname;
+	private int age;
+	private String address;
+	private String department;
+	
+	// via set and get methods
+	
+	
+}
+
+public class EncapsulationExmaple1 {
+
+	public static void main(String[] args) {
+		
+		Employee e = new Employee();
+		
+		
+	}
+}

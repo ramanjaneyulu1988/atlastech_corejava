@@ -1,0 +1,23 @@
+package oops.polymorphism;
+
+public class CompileTimePolymorpismExample1 {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void login(String username, String password)
+	{
+		
+	}
+	
+	public static void login(String username, String password, String type)
+	{
+		
+	}
+	
+	public static void test2(boolean b)
+	{
+		
+	}
+}

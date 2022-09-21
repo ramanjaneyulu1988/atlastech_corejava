@@ -1,0 +1,14 @@
+package oops.polymorphism;
+
+class Person
+{
+	public void personName(String name)
+	{
+		
+	}
+}
+
+
+public class MethodOveridingExample1 {
+
+}
