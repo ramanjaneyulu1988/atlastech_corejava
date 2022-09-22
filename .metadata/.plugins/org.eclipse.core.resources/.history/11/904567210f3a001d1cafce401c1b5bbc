@@ -1,0 +1,19 @@
+package oops.abstraction;
+
+
+public class AbstractionExample1 extends Calculator
+{
+	public void add(int i, int j)
+	{
+		int k = i+j;
+		
+		System.out.println(k);
+	}
+	
+	public static void main(String[] args) {
+		
+		Calculators a = new AbstractionExample1();
+		
+		a.test1();
+	}
+}

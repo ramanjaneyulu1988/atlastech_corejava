@@ -1,0 +1,19 @@
+package oops.abstraction;
+
+abstract class A
+{
+	public void test()
+	{
+		
+	}
+	
+	public abstract void test1();
+}
+
+public class AbstractionExample1 extends A
+{
+	public void test1()
+	{
+		System.out.println("AbstractionExample1 - test1 method");
+	}
+}

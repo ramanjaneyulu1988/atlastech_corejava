@@ -1,0 +1,21 @@
+package oops.abstraction;
+
+interface A
+{
+	
+}
+
+interface B
+{
+	
+}
+
+interface C extends A
+{
+	
+}
+
+
+public class AbstractionExample3 {
+
+}

@@ -1,0 +1,16 @@
+package oops.abstraction;
+
+abstract class A
+{
+	public void test()
+	{
+		
+	}
+	
+	public abstract void test1();
+}
+
+public class AbstractionExample1 {
+
+	
+}

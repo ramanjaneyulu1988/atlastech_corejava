@@ -1,0 +1,11 @@
+package oops.abstraction;
+
+abstract class A
+{
+	
+}
+
+public class AbstractionExample1 {
+
+	
+}

@@ -15,4 +15,8 @@
     <fullyQualifiedTypeName name="datatypes.Example1"/>
     <fullyQualifiedTypeName name="returntypesonmethod.Example1"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="oops.polymorphism.CompileTimePolymorpismExample1"/>
+    <fullyQualifiedTypeName name="oops.polymorphism.Employee"/>
+    <fullyQualifiedTypeName name="oops.polymorphism.MangoTree"/>
+    <fullyQualifiedTypeName name="oops.encapsulation.Employee"/>
 </qualifiedTypeNameHistroy>

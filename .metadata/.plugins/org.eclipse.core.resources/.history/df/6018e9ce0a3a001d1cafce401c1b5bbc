@@ -1,0 +1,10 @@
+package oops.polymorphism;
+
+public class CompileTimePolymorphismExample2 {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	
+}

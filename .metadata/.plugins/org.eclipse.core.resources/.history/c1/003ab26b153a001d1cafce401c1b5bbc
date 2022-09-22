@@ -1,0 +1,22 @@
+package oops.abstraction;
+
+
+interface A
+{
+	public void test();
+}
+
+interface B
+{
+	public void test();
+}
+
+public class AbstractionExample3 extends A,B
+{
+	public static void main(String args[])
+	{
+		AbstractionExample3 obj = new AbstractionExample3();
+		
+		obj.test();
+	}
+}

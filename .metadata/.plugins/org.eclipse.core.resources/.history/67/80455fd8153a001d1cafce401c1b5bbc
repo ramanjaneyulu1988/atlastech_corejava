@@ -1,0 +1,40 @@
+package oops.abstraction;
+
+
+interface A
+{
+	public void test();
+	
+	default void test1()
+	{
+		
+	}
+}
+
+
+interface B
+{
+	public void test();
+	
+	default void test1()
+	{
+		
+	}
+}
+
+public class AbstractionExample3 implements A,B
+{
+	public void test()
+	{
+		System.out.println("AbstractionExample3 - test");
+	}
+	
+	public static void main(String args[])
+	{
+		A obj = new AbstractionExample3();
+		
+		obj.test();
+		
+		obj.test1();
+	}
+}

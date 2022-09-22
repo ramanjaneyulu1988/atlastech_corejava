@@ -1,0 +1,16 @@
+package oops.polymorphism;
+
+class City
+{
+	public void getCityName()
+	{
+		System.out.println("Bangalore");
+	}
+}
+
+public class MethodOveridingExample2 {
+
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,6 @@
+package oops.abstraction;
+
+abstract class Calculator {
+
+	public abstract void add(int i, int j);
+}
