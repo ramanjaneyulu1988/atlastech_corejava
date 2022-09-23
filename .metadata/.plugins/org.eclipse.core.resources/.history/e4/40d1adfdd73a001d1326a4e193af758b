@@ -1,0 +1,13 @@
+package string;
+
+public class StringExample1 {
+
+	public static void main(String[] args) {
+		
+		String s = new String("abcxyz"); // This is creating Object using new keyword
+		
+		int len = s.length();
+		System.out.println(len); // 3
+		
+	}
+}

@@ -1,0 +1,16 @@
+package string;
+
+public class StringExample3 {
+
+	public static void main(String[] args) {
+		
+		String city = "Bangalore#Hyderab#Chennai#Vizag#Hubli#Mumbai#Delhi#Bagpoor";
+		System.out.println(city);
+		
+		String str[] = city.split("#");
+		System.out.println(str.length);
+		
+		System.out.println(str[3]);
+		
+	}
+}

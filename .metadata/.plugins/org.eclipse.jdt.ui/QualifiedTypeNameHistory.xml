@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="com.SIBExample2"/>
     <fullyQualifiedTypeName name="com.IIBExample1"/>
     <fullyQualifiedTypeName name="com.AllExample1"/>
-    <fullyQualifiedTypeName name="com.A"/>
     <fullyQualifiedTypeName name="sun.tools.java.Scanner"/>
     <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
     <fullyQualifiedTypeName name="loops.WhileLoopExample2"/>
@@ -19,4 +18,8 @@
     <fullyQualifiedTypeName name="oops.polymorphism.Employee"/>
     <fullyQualifiedTypeName name="oops.polymorphism.MangoTree"/>
     <fullyQualifiedTypeName name="oops.encapsulation.Employee"/>
+    <fullyQualifiedTypeName name="oops.polymorphism.City"/>
+    <fullyQualifiedTypeName name="com.A"/>
+    <fullyQualifiedTypeName name="oops.abstraction.Calculator"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.launcher.Main"/>
 </qualifiedTypeNameHistroy>
