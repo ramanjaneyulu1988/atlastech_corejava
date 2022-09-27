@@ -1,0 +1,15 @@
+package string;
+
+public class ImmutableExample {
+
+	public static void main(String[] args) {
+		
+		String s = "abc";
+		
+		// s -> abc
+		
+		s.substring(0,2); // ab
+		
+		System.out.println(s);
+	}
+}

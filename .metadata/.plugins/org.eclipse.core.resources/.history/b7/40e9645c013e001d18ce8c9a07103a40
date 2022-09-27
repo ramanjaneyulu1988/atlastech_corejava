@@ -1,0 +1,17 @@
+package string;
+
+public class ImmutableExample {
+
+	public static void main(String[] args) {
+		
+		String fname = "abc";
+		
+		System.out.println(fname.hashCode());
+		
+		fname = fname.concat("xyz"); //abc -> abcxyz
+		
+		System.out.println(fname.hashCode());
+		
+		System.out.println(fname); // abcxyz
+	}
+}
