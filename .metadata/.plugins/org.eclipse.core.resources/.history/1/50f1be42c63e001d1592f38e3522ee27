@@ -1,0 +1,19 @@
+package string;
+
+public class ImmutableExample1 {
+
+	public static void main(String[] args) {
+		
+		String s = "abc";
+		
+		s = s.concat("xyz");
+		
+		String s1 = "abc";
+		
+		
+		StringBuffer sb = new StringBuffer("Alex");
+		
+		sb.append("Rak");
+		sb.append("Raj");
+	}
+}

@@ -22,4 +22,6 @@
     <fullyQualifiedTypeName name="com.A"/>
     <fullyQualifiedTypeName name="oops.abstraction.Calculator"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.launcher.Main"/>
+    <fullyQualifiedTypeName name="string.StringExample4"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 </qualifiedTypeNameHistroy>

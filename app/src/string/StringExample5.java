@@ -20,5 +20,6 @@ public class StringExample5 {
 		String s2 = s.toLowerCase();
 		System.out.println(s2);
 		
+		
 	}
 }
