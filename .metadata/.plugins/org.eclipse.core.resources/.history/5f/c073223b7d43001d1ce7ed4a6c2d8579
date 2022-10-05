@@ -1,0 +1,31 @@
+package exception;
+
+public class Example3 {
+
+	public static void main(String[] args) {
+		
+		String s = "Bangalore";
+		
+		try
+		{
+			char c = s.charAt(2);
+			System.out.println(c); // n
+			
+			int k = 10/0; // Arithmetic
+			System.out.println(k);
+		}
+		catch(StringIndexOutOfBoundsException e)
+		{
+			System.out.println("Exception1");
+			e.printStackTrace();
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("Exception2");
+			e.printStackTrace();
+		}
+		
+		System.out.println("main method end...");
+		
+	}
+}

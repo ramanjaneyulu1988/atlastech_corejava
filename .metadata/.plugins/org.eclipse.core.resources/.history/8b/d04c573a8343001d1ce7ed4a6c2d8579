@@ -1,0 +1,28 @@
+package exception;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Example5 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		try
+		{
+			System.out.println("Enter any integer value");
+			int i = sc.nextInt();
+			
+			System.out.println("Enter another integer value");
+			int j = sc.nextInt();
+		}
+		catch(InputMismatchException e)
+		{
+			e.printStackTrace();
+		}
+		
+		int k = i+j;
+		System.out.println(k);
+		
+	}
+}

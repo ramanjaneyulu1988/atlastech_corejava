@@ -13,7 +13,6 @@
     <fullyQualifiedTypeName name="loops.WhileLoopExample2"/>
     <fullyQualifiedTypeName name="datatypes.Example1"/>
     <fullyQualifiedTypeName name="returntypesonmethod.Example1"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="oops.polymorphism.CompileTimePolymorpismExample1"/>
     <fullyQualifiedTypeName name="oops.polymorphism.Employee"/>
     <fullyQualifiedTypeName name="oops.polymorphism.MangoTree"/>
@@ -24,4 +23,13 @@
     <fullyQualifiedTypeName name="com.sun.tools.javac.launcher.Main"/>
     <fullyQualifiedTypeName name="string.StringExample4"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="com.sun.tools.sjavac.server.SysInfo"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
+    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
