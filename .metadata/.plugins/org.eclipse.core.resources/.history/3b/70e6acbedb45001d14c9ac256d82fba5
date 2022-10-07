@@ -1,0 +1,6 @@
+package differences;
+
+public class Example1 {
+
+	public static final String name = "Alex";
+}

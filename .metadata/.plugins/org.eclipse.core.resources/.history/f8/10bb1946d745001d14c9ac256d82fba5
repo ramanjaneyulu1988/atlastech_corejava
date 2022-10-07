@@ -1,0 +1,8 @@
+package exception.userdefined;
+
+import java.sql.SQLException;
+
+public class BankBalanceNotSufficientException extends SQLException
+{
+	
+}

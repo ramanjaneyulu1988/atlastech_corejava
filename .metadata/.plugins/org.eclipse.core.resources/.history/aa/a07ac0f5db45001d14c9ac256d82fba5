@@ -1,0 +1,12 @@
+package differences;
+
+public class Example1 {
+
+	public static final String name = "Alex";
+	
+	
+	public static void main(String[] args) {
+		
+		name = "abc";
+	}
+}

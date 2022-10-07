@@ -1,0 +1,19 @@
+package differences;
+
+class Test
+{
+	public final void test()
+	{
+		System.out.println("Test - test method");
+	}
+}
+
+public class Example1 extends Test
+{
+	public static final String name = "Alex";
+	
+	
+	public static void main(String[] args) {
+		
+	}
+}
