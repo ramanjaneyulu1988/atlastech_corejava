@@ -1,0 +1,22 @@
+package collectionfw.list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		
+		List list = new ArrayList();
+		
+		list.add("abc");
+		list.add("xyz");
+		list.add("Ram");
+		list.add("Alex");
+		list.add("Raj");
+		list.add("abc");
+		
+		System.out.println(list);
+		
+	}
+}

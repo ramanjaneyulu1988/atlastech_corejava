@@ -1,0 +1,38 @@
+package collectionfw.list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Example3 {
+
+	public static void main(String[] args) {
+
+		List list = new ArrayList();
+
+		// inserting data into list
+		list.add("Raj");
+		list.add("Rak");
+		list.add("Alex");
+		list.add("Raj");
+		list.add("Pavan");
+		list.add("Rajesh");
+		list.add("Alex");
+		list.add("Alex");
+		list.add("Alex");
+		
+		System.out.println(list);
+		
+		List list2 = new ArrayList();
+
+		// inserting data into list
+		list2.add("Bangalore");
+		list2.add("Hyderabad");
+		list2.add("Chennai");
+		list2.add("Vizag");
+		
+		System.out.println(list2);
+		
+		
+		
+	}
+}
