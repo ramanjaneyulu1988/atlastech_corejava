@@ -1,0 +1,14 @@
+package collectionfw.generics;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProductExample {
+
+	public static void main(String[] args) {
+		
+		List<Product> productList = new ArrayList<Product>();
+		
+		Product product1 = new Product();
+	}
+}

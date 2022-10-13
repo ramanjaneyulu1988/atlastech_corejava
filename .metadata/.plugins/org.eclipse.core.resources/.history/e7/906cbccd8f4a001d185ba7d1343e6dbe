@@ -1,0 +1,31 @@
+package collectionfw.generics;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+
+		List<Employee> list = new ArrayList<Employee>();
+
+		Employee emp = new Employee();
+
+		emp.setAddress("Bangalore");
+		emp.setId(100);
+		emp.setFname("abc");
+		emp.setLname("xyz");
+		emp.setSalary(30000.0);
+
+		Employee emp1 = new Employee();
+
+		emp1.setAddress("USA");
+		emp1.setId(101);
+		emp1.setFname("Alex");
+		emp1.setLname("Raj");
+		emp1.setSalary(60000.0);
+
+		list.add(emp);
+		list.add(emp1);
+	}
+}
