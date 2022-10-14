@@ -18,6 +18,8 @@ public class Example1 {
 		set.add("abc");
 		set.add("abc");
 		set.add("abc");
+		set.add("Alex");
+		set.add("Alex");
 		
 		System.out.println(set);
 	}
