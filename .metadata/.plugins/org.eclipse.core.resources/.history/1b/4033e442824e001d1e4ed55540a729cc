@@ -1,0 +1,26 @@
+package collectionfw.map;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		
+		Map<String, List<Employee>> map = new HashMap<String, List<Employee>>();
+		
+		Employee emp1 = new Employee(100, "a", "Dayyala", 50000.0, "HR");
+		Employee emp2 = new Employee(100, "b", "Kona", 50000.0, "HR");
+		Employee emp3 = new Employee(100, "c", "Chitra", 50000.0, "HR");
+		
+		List<Employee> empList = new ArrayList<Employee>();
+		empList.add(emp1);
+		empList.add(emp2);
+		empList.add(emp3);
+		
+		map.put("HR", empList);
+		
+	}
+}
