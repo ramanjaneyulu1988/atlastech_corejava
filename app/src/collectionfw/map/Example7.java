@@ -12,19 +12,23 @@ public class Example7 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int i = 3;
+		int i = 1;
 		while(i <= 3)
 		{
-			System.out.println("Enter key value:");
+			System.out.println("Enter key:");
 			String key = sc.nextLine();
 			
-			System.out.println("Enter value value:");
+			System.out.println("Enter value:");
 			String value = sc.nextLine();
 			
-			if(key != null && value != null)
+			if(key != null && value != null && !key.equals("null") && !value.equals("null"))
 			{
 				map.put(key, value);
 			}
+			
+			i++;
 		}
+		
+		System.out.println(map);
 	}
 }

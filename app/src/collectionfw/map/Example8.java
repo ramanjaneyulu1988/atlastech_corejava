@@ -3,6 +3,8 @@ package collectionfw.map;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 import java.util.TreeMap;
 
 public class Example8 {
@@ -30,5 +32,12 @@ public class Example8 {
 		map.put("India", indiaStates);
 		
 		System.out.println(map);
+		
+		Set<Entry<String, List<String>>> set = map.entrySet();
+		System.out.println("By using entrySet with enhanced for loop...");
+		for(Entry<String, List<String>> entry : set)
+		{
+			System.out.println(entry.getKey()+" - "+entry.getValue());
+		}
 	}
 }
