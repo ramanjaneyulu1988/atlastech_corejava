@@ -1,0 +1,67 @@
+package threads;
+
+public class Example1 extends Thread
+{
+	// main thread is responsible to call/execute the main method
+	public static void main(String[] args) throws InterruptedException {
+		
+		System.out.println("main method start...");
+		
+		Thread example1 = new Example1();
+		System.out.println(example1.getName()); // Thread-0
+		example1.run();
+		
+		Thread example2 = new Example1();
+		System.out.println(example2.getName()); // Thread-1
+		example2.run();
+		
+		for(int i=1; i<=10; i++)
+		{
+			Thread.sleep(500);
+			System.out.println("Inside main method: "+i);
+		}
+		
+		System.out.println("main method end...");
+	}
+	
+	public void run()
+	{
+		String name = Thread.currentThread().getName();
+		if(name.equals("Thread-0") || (name.equals("main")))
+		{
+			test();
+		}
+		if(name.equals("Thread-1"))
+		{
+			test1();
+		}
+	}
+	
+	public void test()
+	{
+		for(int i=11; i<=20; i++)
+		{
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			System.out.println("Inside run method: "+i);
+		}
+	}
+	
+	public void test1()
+	{
+		for(int i=21; i<=30; i++)
+		{
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			System.out.println("Inside run method: "+i);
+		}
+	}
+}

@@ -1,0 +1,25 @@
+package threads;
+
+public class Example2 implements Runnable
+{
+	public static void main(String[] args) throws InterruptedException {
+		
+		System.out.println("main method start...");
+		
+		Example2 example2 = new Example2();
+		Thread t = new Thread();
+		
+		for(int i=1; i<=10; i++)
+		{
+			Thread.sleep(500);
+			System.out.println("Inside main method: "+i);
+		}
+		
+		System.out.println("main method end...");
+	}
+	
+	public void run()
+	{
+		
+	}
+}

@@ -1,0 +1,6 @@
+package oops.abstraction;
+
+// This interface is a marker interface becuase this doesn't contains any methods
+public interface Test {
+
+}
