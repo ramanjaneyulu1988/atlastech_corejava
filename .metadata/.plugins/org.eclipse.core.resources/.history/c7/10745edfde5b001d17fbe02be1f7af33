@@ -1,0 +1,13 @@
+package jdbc;
+
+public class Customer {
+
+	private int id;
+	private String fname;
+	private String lname;
+	private String address;
+	private String email;
+	private int phone;
+	
+	
+}

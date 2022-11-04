@@ -1,0 +1,17 @@
+package jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DBUtil {
+
+	public static Connection getDBConnection()
+	{
+		// Registering a Driver class
+		Class.forName("com.mysql.jdbc.Driver");
+		// Opening Connection
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/atlas","root","root");
+		
+		return con;
+	}
+}

@@ -1,0 +1,61 @@
+package jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class SelectExample {
+
+	public static void main(String[] args) 
+	{
+		Connection con = null;
+		Statement stmt = null;
+		try
+		{
+			// Registering a Driver class
+			Class.forName("com.mysql.jdbc.Driver");
+			// Opening Connection
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/atlas","root","root");
+			// Creating Statement
+			stmt = con.createStatement();
+			String sql = "select * from customer";
+			
+			// Executing query
+			int i = stmt.executeUpdate(sql);
+			if(i > 0)
+			{
+				System.out.println("Insertion succesful...");
+			}
+			else
+			{
+				System.out.println("Insertion failed...");
+			}
+		}
+		catch (ClassNotFoundException e) 
+		{
+			e.printStackTrace();
+		}
+		catch (SQLException e) 
+		{
+			e.printStackTrace();
+		}
+		catch (Exception e) 
+		{
+			e.printStackTrace();
+		}
+		finally
+		{
+			try 
+			{
+				stmt.close();
+				con.close();
+			} 
+			catch (SQLException e) 
+			{
+				e.printStackTrace();
+			}
+			
+		}
+	}
+}

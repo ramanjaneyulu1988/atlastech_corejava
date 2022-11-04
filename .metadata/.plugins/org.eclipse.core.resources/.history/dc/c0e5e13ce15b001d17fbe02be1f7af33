@@ -1,0 +1,61 @@
+package jdbc;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class SelectExample {
+
+	public static void main(String[] args) 
+	{
+		Connection con = null;
+		Statement stmt = null;
+		try
+		{
+			con = DBUtil.getDBConnection();
+			// Creating Statement
+			stmt = con.createStatement();
+			String sql = "select * from customer";
+			
+			// Executing query
+			ResultSet rs = stmt.executeQuery(sql);
+			while(rs.next())
+			{
+				System.out.println(rs.getInt("customer_id"));
+				System.out.println(rs.getString("firstname"));
+				System.out.println(rs.getString("lastname"));
+				System.out.println(rs.getString("email"));
+				System.out.println(rs.getString("address"));
+				System.out.println(rs.getInt("phone"));
+				
+				System.out.println("===========================");
+			}
+		}
+		catch (ClassNotFoundException e) 
+		{
+			e.printStackTrace();
+		}
+		catch (SQLException e) 
+		{
+			e.printStackTrace();
+		}
+		catch (Exception e) 
+		{
+			e.printStackTrace();
+		}
+		finally
+		{
+			try 
+			{
+				stmt.close();
+				con.close();
+			} 
+			catch (SQLException e) 
+			{
+				e.printStackTrace();
+			}
+			
+		}
+	}
+}

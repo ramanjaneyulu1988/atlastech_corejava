@@ -1,0 +1,25 @@
+package jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class InsertExample {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		
+		// Registering a Driver class
+		Class.forName("com.mysql.jdbc.Driver");
+	
+		// Opening Connection
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/atlas","root","root");
+		
+		Statement stmt = con.createStatement();
+		
+		String sql = "insert into customer (customer_id, firstname, lastname, address, email, phone) values (102, 'Alex', 'Dayya', 'Blr', 'alex@gmail.com', 1234567)";
+		
+		
+		
+	}
+}
